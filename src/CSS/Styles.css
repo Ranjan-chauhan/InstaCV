@@ -1,0 +1,184 @@
+.owl-theme .owl-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.owl-dots {
+  position: absolute;
+  margin-top: 1rem;
+  left: 2rem;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #d4d8dc;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #007bff;
+}
+
+.owl-nav {
+  position: absolute;
+  right: 2rem;
+  margin-top: 1rem;
+}
+
+.custom {
+  color: #1a2c4e;
+  font-size: 0.7rem;
+  width: 3rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(105, 105, 128);
+}
+
+.owl-carousel .owl-item {
+  border: 1px solid rgb(141, 136, 136);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.owl-carousel .owl-item img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50px;
+}
+
+.testimonials {
+  padding-inline: 2rem;
+  padding-block: 2rem;
+}
+
+.linkedin {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+}
+
+.owl-stage:hover {
+  cursor: grab;
+}
+
+.booster {
+  width: 75%;
+}
+
+.careerGuide .careeradvice {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2rem;
+  margin-bottom: 2rem;
+}
+
+.careerGuide .careeradvice:hover .arrowSvg {
+  transform: translateX(100%);
+}
+
+.careerGuide .careeradvice:hover .careertitle h1,
+.careerGuide .careeradvice:hover .arrowSvg {
+  color: #007bff;
+}
+
+.careerGridDescription {
+  margin-inline: 8rem;
+  margin-bottom: 2rem;
+  font-size: 16px;
+}
+
+.careerBtn2,
+.careerBtn3 {
+  width: 10rem;
+  height: 3rem;
+  font-size: 14px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+}
+
+.careerBtn1 {
+  width: 10rem;
+  height: 3rem;
+  font-size: 14px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.careerBtn2:hover,
+.careerBtn3:hover {
+  border: 1px solid #007bff;
+}
+
+.careerGuide .careeradvice .careertitle {
+  margin-top: 2rem;
+}
+
+.careerGuide .careeradvice .careertitle div img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50px;
+}
+
+hr {
+  opacity: 0.1;
+}
+
+.arrowSvg {
+  opacity: 0.5;
+}
+
+.readmore {
+  width: 15rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.careerDevGuide {
+  width: 100%;
+  padding: 3rem;
+}
+
+@media screen and (max-width: 750px) {
+  .booster {
+    width: 100%;
+  }
+  .careerGridDescription {
+    margin-inline: 1rem!important;
+  }
+  .careertitle .title{
+    font-size: 1rem;
+  }
+  .careerDevTitle .devGuide{
+    font-size: 1rem;
+  }
+  .readmore{
+    font-size: 0.8rem;
+  }
+}
