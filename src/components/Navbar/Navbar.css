@@ -1,0 +1,167 @@
+.nav-bar {
+  display: flex;
+  padding: 2rem;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-bar ul li {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar ul li:hover .arrow {
+  transform: rotate(180deg);
+}
+
+.arrow {
+  transition: transform 0.5s ease-in-out;
+}
+
+.myaccount {
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background: #27af56;
+}
+
+.tools {
+  width: 20rem;
+  padding: 1rem;
+  position: absolute;
+  top: 5.5rem;
+  left: 19.9rem;
+  z-index: 9999;
+  display: none;
+  border: 1px solid grey;
+  background-color: #fff;
+}
+
+.tool-item,
+.resume-item {
+  margin-bottom: 1rem;
+}
+
+.tool-item img {
+  margin-right: 1rem;
+}
+
+.service-item {
+  padding: 1rem 0;
+}
+
+.imgResume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service {
+  text-align: left;
+}
+
+[class^="nav-item"]:hover {
+  padding: 10px;
+  background-color: white;
+  color: #333;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.resume {
+  top: 5.5rem;
+  left: 26.5rem;
+  z-index: 9999;
+  overflow-y: scroll;
+  display: none;
+  border: 1px solid grey;
+  height: 30rem;
+  width: auto;
+  background-color: #fff;
+  position: absolute;
+}
+
+.resume-service {
+  text-align: left;
+}
+
+.resumeDescription p {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.resumeDescription h1 {
+  font-weight: 600;
+}
+
+.createResume {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #27af56;
+}
+
+.resume-service {
+  padding: 20px;
+}
+
+.cv {
+  top: 5.5rem;
+  left: 34.2rem;
+  z-index: 9999;
+  overflow-y: scroll;
+  display: none;
+  border: 1px solid grey;
+  height: 30rem;
+  width: auto;
+  background-color: #fff;
+  position: absolute;
+}
+
+.coverletter {
+  top: 5.5rem;
+  left: 39.7rem;
+  z-index: 9999;
+  overflow-y: scroll;
+  display: none;
+  border: 1px solid grey;
+  height: 30rem;
+  width: auto;
+  background-color: #fff;
+  position: absolute;
+}
+
+
+.nav-item1:hover .tools {
+  display: block;
+}
+
+.nav-item2:hover .resume {
+  display: block;
+}
+
+.nav-item3:hover .cv {
+  display: block;
+}
+
+.nav-item4:hover .coverletter{
+  display: block;
+}
+
+
