@@ -89,7 +89,7 @@ const Resources = () => {
             </p>
           </div>
         </div>
-        <Link className='readmore bg-blue-950 text-white'>Read more about Resumes</Link>
+        <Link className='readmore  text-white'>Read more about Resumes</Link>
       </div>
     </>
   )
